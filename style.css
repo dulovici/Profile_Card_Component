@@ -1,3 +1,13 @@
 h1 {
     color: gray;
 }
+
+p {
+    width: 400px;
+    background-color: hotpink;
+}
+
+.container {
+    width: 30%;
+    margin: 10em auto;
+}
