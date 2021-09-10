@@ -12,12 +12,8 @@
     --grayBlue: #6a6f81;
 }
 
-body {
-    overflow: hidden;
-}
 
 /* BACKGROUND */
-
 .top-circ {
     position: absolute;
     bottom: 50vh;
@@ -37,6 +33,7 @@ body {
 
 /* LAYOUT */
 main {
+    position: relative;
     font-family: 'Kumbh Sans', sans-serif;
     margin: 0 auto;
     height: 100vh;
@@ -57,14 +54,12 @@ main {
     .upper {
         height: 80%;
     }
-
         .cover {
             background-image: url(./images/bg-pattern-card.svg);     
             background-size: cover;     
             width: 100%;
             height: 9.5em;
         }
-
         .img {
             display: flex;
             justify-content: center;
@@ -75,7 +70,6 @@ main {
                 border: 6px solid whitesmoke;
                 margin-top: -3em;
             }
-
         .about {
             display: flex;
             flex-direction: column;
@@ -109,7 +103,6 @@ main {
             justify-content: center;
             align-items: center;
         }
-
 
 
 
