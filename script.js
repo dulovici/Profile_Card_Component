@@ -30,10 +30,13 @@ const main = document.querySelector('main');
 
 // Functions
 function thousandToK(num) {
-    return Math.abs(num) > 999 ? Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' : Math.sign(num)*Math.abs(num)
+    return Math.abs(num) > 999 
+    ? Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' 
+    : Math.sign(num)*Math.abs(num)
 }
 
 function generateCard(user) {
+    // Creating DOM Ellements
     const userCard = document.createElement('div');
     userCard.setAttribute('class', 'user-card');
 
@@ -74,7 +77,7 @@ function generateCard(user) {
     const photosP = document.createElement('p');
     photosP.textContent = 'Photos';
 
-
+    // Appending elements to the DOM
     main.append(userCard);
         userCard.append(upper);
          upper.append(cover);
