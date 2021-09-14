@@ -12,6 +12,11 @@
     --grayBlue: #6a6f81;
 }
 
+.container {
+    position: relative;
+    overflow: hidden;
+    
+}
 
 /* BACKGROUND */
 .top-circ {
@@ -31,14 +36,18 @@
 }
 
 
+
+
 /* LAYOUT */
 main {
-    position: relative;
     font-family: 'Kumbh Sans', sans-serif;
     margin: 0 auto;
     height: 100vh;
     overflow: hidden;
     background-color: var(--darkCyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .user-card {
