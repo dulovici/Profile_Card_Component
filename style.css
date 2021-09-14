@@ -144,3 +144,9 @@ main {
        
     }
 }
+
+@media (max-height: 600px) {
+    .user-card {
+        transform: rotate(90deg)
+    }
+}
